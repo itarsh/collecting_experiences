@@ -6,11 +6,36 @@ body{
     width: 100%;
 }
 
-.titles{
+.title_food{
     display: flex;
     justify-content: space-evenly;
     font-size: 20px;
     text-align: center;
+    color: rgb(192,23,34);
+}
+
+.title_art{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(72,0,155);
+}
+
+.title_growth{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-align: center;
+    color:  rgb(255,195,17);
+}
+
+.title_travel{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(0,201,227);
 }
 
 .logo{
@@ -19,7 +44,6 @@ body{
     font-size: 40px; 
     text-align: center;
 }
-
 
 
 footer{
@@ -37,6 +61,56 @@ footer{
     justify-content: space-evenly;
 }
 
-.bao{ 
+.home_image{ 
     width: 700px;
+}
+
+.col{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.food_overlay{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px; 
+  background-color: white;
+  color: rgb(192,23,34);
+  font-weight: bold;
+}
+
+.art_overlay{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px; 
+  background-color: white;
+  color: rgb(72,0,155);
+  font-weight: bold;
+}
+
+.growth_overlay{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px; 
+  background-color: white;
+  color: rgb(255,195,17);
+  font-weight: bold;
+}
+
+.travel_overlay{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px; 
+  background-color: white;
+  color: rgb(0,201,227);
+  font-weight: bold;
 }

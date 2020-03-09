@@ -6,6 +6,11 @@ body{
     width: 100%;
 }
 
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .title_food{
     display: flex;
     justify-content: space-evenly;

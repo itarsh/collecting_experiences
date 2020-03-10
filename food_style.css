@@ -94,6 +94,12 @@ h2{
   color: black;
 }
 
+.category{
+    padding-top: 100px;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
 .food_overlay{
     position: absolute;
   top: 50%;
@@ -104,3 +110,4 @@ h2{
   color: rgb(192,23,34);
   font-weight: bold;
 }
+

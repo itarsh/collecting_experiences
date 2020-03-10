@@ -1,10 +1,21 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    padding: 0px;
 }
 
 .nav{
+    overflow: hidden;
     width: 100%;
 }
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + body {
+    padding-top: 60px;
+  }
 
 a{
     color: inherit;
@@ -14,33 +25,37 @@ a{
 .title_food{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     color: rgb(192,23,34);
+    padding: 14px;
 }
 
 .title_art{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     color: rgb(72,0,155);
+    padding: 14px;
 }
 
 .title_growth{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     color:  rgb(255,195,17);
+    padding: 14px;
 }
 
 .title_travel{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     color:rgb(0,201,227);
+    padding: 14px;
 }
 
 .logo{
@@ -48,12 +63,7 @@ a{
     justify-content: space-evenly;
     font-size: 40px; 
     text-align: center;
-}
-
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
+    padding: 14px;
 }
 
 footer{

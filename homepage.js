@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-   
-  });
-
   window.onscroll = function() {myFunction()};
   var nav = document.getElementById("nav");
   var sticky = nav.offsetTop;
@@ -12,3 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
       nav.classList.remove("sticky");
     }
   }
+});
+
+ 

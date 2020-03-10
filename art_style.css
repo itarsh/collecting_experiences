@@ -14,7 +14,8 @@ a{
 .title_food{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 28px;
+    padding: 14px;
     text-align: center;
     color: rgb(192,23,34);
 }
@@ -22,7 +23,8 @@ a{
 .title_art{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 28px;
+    padding: 14px;
     text-align: center;
     color: rgb(72,0,155);
 }
@@ -30,7 +32,8 @@ a{
 .title_growth{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 28px;
+    padding: 14px;
     text-align: center;
     color:  rgb(255,195,17);
 }
@@ -38,7 +41,8 @@ a{
 .title_travel{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 28px;
+    padding: 14px;
     text-align: center;
     color:rgb(0,201,227);
 }
@@ -110,4 +114,10 @@ h2{
   background-color: white;
   color: rgb(72,0,155);
   font-weight: bold;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: inherit;
 }

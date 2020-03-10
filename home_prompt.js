@@ -1,4 +1,4 @@
-alert("Welcome to Collecting Experiences, thank you for visiting our site!");
+alert("Welcome to Collecting Experiences! Made by women, for women, and heroing female experience.");
 
 window.onscroll = function() {myFunction()};
   var nav = document.getElementById("nav");

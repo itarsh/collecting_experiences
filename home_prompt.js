@@ -10,3 +10,7 @@ window.onscroll = function() {myFunction()};
       nav.classList.remove("sticky");
     }
   }
+
+function Subscribe() {
+  alert("Thank you for subscribing to Collecting Experiences!"); 
+}

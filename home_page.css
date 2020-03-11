@@ -114,31 +114,31 @@ a{
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    font-size: 10px; 
-    justify-content: center;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-  }
- 
-  input[type=text], input[type=submit] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid hotpink;
-    box-sizing: border-box;
-    color: hotpink;
-    text-align: center;
-  }
-  
-  input[type=submit] {
-    background-color: hotpink;
-    color: white;
-    border: none;
-  }
-  
-  input[type=submit]:hover {
-    opacity: 0.5;
-  }
+  display: flex;
+  justify-content: center;
+  font-size: 10px; 
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type=text], input[type=button] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid hotpink;
+  box-sizing: border-box;
+  color: hotpink;
+  text-align: center;
+}
+
+input[type=button] {
+  background-color: hotpink;
+  color: white;
+  border: none;
+}
+
+input[type=button]:hover {
+  opacity: 0.5;
+}

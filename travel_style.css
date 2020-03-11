@@ -2,9 +2,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.nav{
-    width: 100%;
-}
 
 a{
     color: inherit;
@@ -135,4 +132,19 @@ footer {
   
   input[type=button]:hover {
     opacity: 0.5;
+  }
+
+  .nav{
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.sticky + .intro_title {
+    padding-top: 120px;
   }
